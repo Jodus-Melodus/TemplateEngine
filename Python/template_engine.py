@@ -1,6 +1,6 @@
 import re
 
-def populate_template(template: str, values: list[str]) -> None:
+def populate_template(template: str, values: list[str]) -> str:
     regex: str = r"(<\S*>)"
 
     for value in values:
